@@ -1,0 +1,26 @@
+@tailwind base;
+
+:root {
+    --background : 32, 64, 96;
+    --foreground: 255, 255, 255;
+}
+
+.deep-ocean {
+    --background: 0, 13, 26;
+    --foreground: 255, 255, 153;
+}
+
+.light{
+    --background: 255, 255, 255;
+    --foreground: 0, 0, 0;
+}
+
+.dark{
+    --background: 0, 0, 0;
+    --foreground: 255, 255, 255;
+}
+
+
+
+@tailwind components;
+@tailwind utilities;
